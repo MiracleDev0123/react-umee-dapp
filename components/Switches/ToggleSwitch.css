@@ -1,0 +1,23 @@
+.toggle-label {
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.toggle-hover-label:hover {
+  background: linear-gradient(to right, #e6b5fa, #43e0fd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.toggle-box {
+  position: relative;
+}
+
+.toggle-active {
+  position: absolute;
+  top: 0;
+  float: right;
+  transition: 0.3s ease-in-out;
+}

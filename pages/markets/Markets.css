@@ -1,0 +1,24 @@
+.nav-title {
+  text-align: center;
+  padding: 25px;
+  color: #142a5b;
+}
+p {
+  color: #142a5b;
+  padding-top: 25px;
+}
+.box {
+  align-self: center;
+}
+.toggle-switch {
+  align-self: center;
+}
+
+.box {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.markets-container {
+  margin-left: 100px;
+}

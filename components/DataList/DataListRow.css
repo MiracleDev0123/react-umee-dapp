@@ -1,0 +1,24 @@
+.row-container {
+  transition: 0.3s;
+}
+
+.row-container > div:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.row-container:hover {
+  background-color: var(--umee-full-grey3);
+}
+
+.row-container-dark:hover {
+  background-color: #2A2C4E !important;
+}
+
+.row-content > div:first-child {
+  padding-left: 5px;
+}
+
+.row-content > div:last-child {
+  padding-right: 5px;
+}

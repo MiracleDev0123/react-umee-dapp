@@ -1,0 +1,161 @@
+@import './fonts.css';
+@import './modals.css';
+
+/** These are from the new Umee Style guide*/
+:root {
+  --umee-color-primary: #070927;
+  --umee-full-dark: #16183C;
+  --umee-mid-grey-on-navy: #A0A1BA;
+  --umee-full-grey1: #EBECF3;
+  --umee-full-grey2: #62637B;
+  --umee-full-grey3: #E2E3ED;
+  --umee-full-purple: #C9B8FF;
+  --umee-full-green: #4DFFE5;
+  --umee-full-pink: #FDA9FF;
+  --umee-gradient: linear-gradient(83.37deg, #FDA9FF -9.48%, #C9B8FF 18.96%, #4DFFE5 82.13%);
+  --umee-gradient-inverse: linear-gradient(273.37deg, #FDA9FF -9.48%, #C9B8FF 18.96%, #4DFFE5 82.13%);
+  --umee-full-white: #fff;
+  --umee-overlay: rgba(22, 24, 60, 0.95);
+  --umee-overlay-dark: rgba(7, 9, 39, 0.95);
+  --umee-dark-grey-on-navy: #464869;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: Helvetica;
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  font-family: Helvetica, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #16183c;
+  line-height: normal !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus, a:visited, a:active {
+  box-shadow: none !important;
+}
+
+.shortence {
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.gradient-text {
+  width: fit-content;
+  background: linear-gradient(90deg, #FDA9FF 6.98%, #4EFFE5 94.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gradient-bottom {
+  border: 0px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(90deg, #FDA9FF 0%, #C9B8FF 27.26%, #4DFFE5 100%) 1;
+}
+
+.markets-container {
+  min-height: 100vh !important;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.content {
+  max-width: 1560px !important;
+  width: 100%;
+}
+
+.letter-spacing {
+  letter-spacing: 0.1em;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.outline {
+  outline: 10px solid white;
+}
+
+.outline-dark {
+  outline: 10px solid var(--umee-color-primary);
+}
+
+.centered {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.asset-card:not(:first-child) {
+    margin-top: 12px;
+}
